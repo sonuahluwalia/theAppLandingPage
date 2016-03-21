@@ -28,7 +28,8 @@
     
   
   <script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
-  
+  <script type="text/javascript" src="js/paper-full.min.js"></script>  <!-- paper.js /-->
+  <script type="text/paperscript" canvas="canvas" src="js/water.js"></script> <!-- water effect /-->
 </head>
 
 
@@ -104,10 +105,11 @@
 
 
 <section class="page1">
-
+<canvas id="canvas" resize hidpi="off" >
+</canvas>
 		      	<!-- Huge Title centered --> 
 		      
-		        <div class="huge-title">  
+		        <div class="huge-title" >
 		        
 		          <div class="logo-phone centered"><h2 style="font-size:24px; color:white">CODECLOUDINGER</h2></div>  <!-- This Logo is only displayed on Tablet/iPhone !-->  
 		      
@@ -117,7 +119,7 @@
 		  	  
 		  	    <!-- Little text on bottom with arrow --> 
 		  	  
-		  	    <div class="go-down">
+		  	    <div class="go-down" >
 		  	  
 		  	      <p>How It Works</p>
 		  	  
